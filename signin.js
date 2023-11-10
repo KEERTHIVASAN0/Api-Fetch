@@ -32,7 +32,7 @@ class FormValidation{
     }
     validateUsername(){
         if(this.formValues.username === ""){
-            this.errorValues.usernameErr = "* Please Enter Your Name"
+            this.errorValues.usernameErr = "Please Enter Your Name"
             this.showErrorMsg(0,this.errorValues.usernameErr)
         } else if(this.formValues.username.length <= 4 ){
             this.errorValues.usernameErr = "Username must be atleast 5 Characters"
