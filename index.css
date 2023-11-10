@@ -1,0 +1,70 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap");
+* {
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(j.avif);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+}
+.section-padding {
+  padding: 100px 0;
+}
+.team .card-body i {
+    font-size: 20px;
+  }
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    
+    .card {
+      margin-bottom: 30px;
+    }
+    #api{
+      top: 40px;
+    }
+  }
+  @media only screen and (max-width: 767px) {
+    .navbar-nav {
+      text-align: center;
+    }
+    
+    .card {
+      margin-bottom: 30px;
+    }
+    #user{
+      top: 40px;
+    }
+  }
+  
+  
+  .api-container{
+    margin: 100px 0 20px;
+  }
+  
+  .card-desc{
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+     text-overflow: ellipsis;
+  
+   
+  }
+  .my-title{
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    line-height: 35px;
+    -webkit-box-orient: vertical;
+     text-overflow: ellipsis;
+  }
+  .card{
+    margin-top: 10px;
+  }
+  .card:hover{
+    background-color: #378ab6;
+    color: #fff;
+  }

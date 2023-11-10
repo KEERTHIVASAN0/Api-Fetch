@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css?family=Muli&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-image: url(j.avif);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    font-family: "Open Sans", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+  }
+
+  
+
+.card{
+  background: #fff;
+  width: 350px;
+  min-height: 400px;
+  box-shadow: rgb(252, 251, 251) 0px 5px 15px;
+  display: flex;
+
+
+}
+
+
+.form{
+  padding: 60px 60px; 
+  display: flex;
+  flex-direction: column;
+}
+.form h3{
+  font-size: 28px;
+  font-weight: 500;
+  position: relative;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+
+.fa{
+  color: #0c0c0c;
+  position: absolute;
+  top:10px;
+  font-size: 18px;
+}
+
+.input-field{
+  width: 100%;
+  margin-bottom: 10px;
+  position: relative;
+}
+.input-field input{
+  display: block; 
+  width: 100%;
+  padding: 10px 30px;
+  outline: none;
+  border:none;
+  border-bottom: 2px solid rgb(182, 180, 180);
+  font-size: 15px;
+}
+
+.form>a{
+  color:#2798d5;
+  text-decoration: none;
+  font-size: 14px;
+  margin-bottom: 35px
+
+}
+
+button{
+  height: 45px;
+  background:#27b2d5;
+  border:none;
+  color:white;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+button+p{
+  text-align: center;
+  padding-top: 30px;
+  font-size: 14px;
+}
+
+button a{
+  text-decoration: none;
+  color:#273bd5;
+  font-weight: 500;
+}
+
+input::placeholder {
+  font-family: 'Poppins', sans-serif;
+}
